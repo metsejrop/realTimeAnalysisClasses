@@ -34,7 +34,7 @@ def api():
         }
     }
 
-    return jsonify(dict(response))
+    return jsonify(response)
 
 if __name__ == '__main__':
     app.run()
